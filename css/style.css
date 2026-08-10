@@ -1,0 +1,56 @@
+/* SmartPair Trader 基础样式 */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #f5f7fa;
+  --card: #ffffff;
+  --text: #2d3436;
+  --muted: #636e72;
+  --primary: #6c5ce7;
+  --profit: #00b894;
+  --loss: #e17055;
+  --border: #dfe6e9;
+  --shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+.header {
+  background: var(--primary);
+  color: #fff;
+  padding: 24px 16px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 24px;
+}
+
+.subtitle {
+  margin-top: 6px;
+  font-size: 14px;
+  opacity: 0.85;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.card {
+  background: var(--card);
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 12px;
+  box-shadow: var(--shadow);
+}
